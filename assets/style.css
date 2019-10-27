@@ -1,0 +1,40 @@
+
+form {
+margin-top: 10px;
+}
+
+.container {
+    font-family: 'Modak', cursive;
+}
+
+.jumbotron {
+    font-family: 'Ruda', sans-serif;
+    text-align: center;
+
+}
+
+body {
+    background-color: slategrey;
+}
+
+.topics {
+    margin-right: 4px;
+}
+#submit-button {
+    margin-top: 10px;
+}
+
+#submit-button:hover {
+    cursor: pointer;
+    background-color: #113080;
+    color: white;
+}
+.container {
+    background-color: #208756;
+    color: white;
+    text-align: center;
+}
+
+
+   
+
