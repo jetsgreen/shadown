@@ -23,8 +23,8 @@ $(document).ready(function () {
     $("#add-button").submit(function (event) {
         event.preventDefault();
        
-        var textBox = $("#input").val().trim();
-        topics.push(textBox);
+        var userInput = $("#input").val().trim();
+        topics.push(userInput);
         renderButtons();
         console.log(topics);
     });
@@ -43,12 +43,25 @@ $(document).ready(function () {
 				console.log(response);
 				for (var i=0; i < response.data.length; i++){
 					$("#gifs-go-here").prepend("<p>Rating: " + response.data[i].rating+"<p>");
-					$("#gifs-go-here").prepend("<img src='" + response.data[i].images.downsized.url + "'heigth=250px width=200px>");
+					$("#gifs-go-here").prepend("<img src='" + response.data[i].images.downsized.url + "'heigth=400px, width=300px>");
 				}
             })
             
 				
-			});
+            });
+            
+            // function gifAnimate() {
+            //     var state = $(this).attr("data-state");
+            //     if (state === "still") {
+            //         $(this).attr("src", $(this).attr("data-animate"));
+            //         $(this).attr("data-state", "animate");
+            //     } else {
+            //         $(this).attr("src", $(this).attr("data-still"));
+            //         $(this).attr("data-state", "still");
+        
+            //     }
+            // }
+        
     
     
 });
