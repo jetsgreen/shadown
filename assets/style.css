@@ -35,6 +35,11 @@ body {
     text-align: center;
 }
 
+#gif-area {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
 
    
-
