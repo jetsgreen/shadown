@@ -53,12 +53,23 @@ $(document).ready(function () {
 				console.log(response);
 				for (var i=0; i < response.data.length; i++){
 					$("#gif-area").prepend("<p>Rating: " + response.data[i].rating+"<p>");
-					$("#gif-area").prepend("<img src='" + response.data[i].images.downsized.url + "'heigth=200px, width=200px>");
+					$("#gif-area").prepend("<img src='" + response.data[i].images.downsized_still.url + "'heigth=200px, width=200px>");
 				}
             })
             
 				
             });
+            
+        //    function animateGif (); {
+            // for (var i = 0; i < topics.length; i++)
+        //    var animate =  response.data[i].images.downsized_.url
+        //    $("#gif-area").click(function(animate){
+        //        animateGif();
+        //    });
+        // }
+          
+
+            
             
             
         
