@@ -1,6 +1,8 @@
-# shadown
-gif api key
-eXB5R1zPqIqwTl7XTFq8RkMNTH2Mrknc
-working api ex funny+cat
-https://api.giphy.com/v1/gifs/search?q=funny+cat&api_key=eXB5R1zPqIqwTl7XTFq8RkMNTH2Mrknc
+### Gif App
+
+This project makes use of the GIPHY API to create a dynamic web page that populates gifs.
+
+Users can click one of the existing topic buttons on the page to display related gifs. As well, they can create their own topic button by typing the value into the input box and clicking 'submit'.
+
+https://jetsgreen.github.io/shadown/
 
